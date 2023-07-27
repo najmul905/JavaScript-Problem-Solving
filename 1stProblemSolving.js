@@ -1,5 +1,11 @@
-const value="Hello World"
-for(let i=value.length-1; i>=0; i--){
-    const getData=value[i].toString()
-    console.log(getData)
-}
+function reverseString(value) {
+    let reversed = '';
+    for (let i = input.length - 1; i >= 0; i--) {
+      reversed += input.charAt(i);
+    }
+    return reversed;
+  }
+  
+  const value = "hello world";
+  const result = reverseString(value);
+  console.log(result);
